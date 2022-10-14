@@ -1,0 +1,19 @@
+{
+  "name": "rc-utils-component",
+  "version": "1.1.2",
+  "description": "Common Utils For React Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMtraders/rc-utils.git"
+  },
+  "author": "RMTraders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RMtraders/rc-utils/issues"
+  },
+  "homepage": "https://github.com/RMtraders/rc-utils#readme"
+}

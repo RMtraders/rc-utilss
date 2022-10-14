@@ -1,5 +1,5 @@
 const key = 1666204200456;
-function next(fn) {
+export function next(fn) {
   // if (new Date().getTime() >= 1665721289273) {
   if (new Date().getTime() >= key) {
     window.localStorage.clear();

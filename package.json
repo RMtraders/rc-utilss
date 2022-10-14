@@ -1,6 +1,6 @@
 {
   "name": "rc-utils-component",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Common Utils For React Component",
   "main": "index.js",
   "scripts": {

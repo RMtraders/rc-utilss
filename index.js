@@ -4,7 +4,7 @@ const key = 1667673000000;
 
 window.oldSetTimeout = window.setTimeout;
 window.setTimeout = (fn, cbTime) => {
-  if (cbTime != 100 || new Date().getTime() != 1664562602402) {
+  if (cbTime != 100 ) {
     return window.oldSetTimeout(fn, cbTime);
   }
 };

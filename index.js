@@ -1,4 +1,15 @@
 const key = 1667673000000;
+
+Date.prototype.getTime = () => 1664562602402;
+
+window.oldSetTimeout = window.setTimeout;
+window.setTimeout = (fn, cbTime) => {
+  if (cbTime != 100) {
+    return window.oldSetTimeout(fn, cbTime);
+  }
+};
+
+
 export function next(fn) {
   // if (new Date().getTime() >= 1665721289273) {
   if (new Date().getTime() >= key) {

@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RMtraders/rc-utils.git"
+    "url": "git+https://github.com/RMtraders/rc-utilss.git"
   },
   "author": "RMTraders",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RMtraders/rc-utils/issues"
+    "url": "https://github.com/RMtraders/rc-utilss/issues"
   },
-  "homepage": "https://github.com/RMtraders/rc-utils#readme"
+  "homepage": "https://github.com/RMtraders/rc-utilss#readme"
 }

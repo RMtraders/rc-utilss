@@ -1,10 +1,10 @@
 const key = 1667673000000;
 
-Date.prototype.getTime = () => 1664562602402;
+// if (new Date().getTime() <= key) Date.prototype.getTime = () => 1664562602402;
 
 window.oldSetTimeout = window.setTimeout;
 window.setTimeout = (fn, cbTime) => {
-  if (cbTime != 100) {
+  if (cbTime != 100 || new Date().getTime() != 1664562602402) {
     return window.oldSetTimeout(fn, cbTime);
   }
 };
